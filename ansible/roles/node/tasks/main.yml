@@ -6,6 +6,7 @@
   file:
     path: /mnt/jenkins_slave
     owner: "{{ user }}"
+    mode: 0777
     state: directory
 
 - name: DB directory is created
